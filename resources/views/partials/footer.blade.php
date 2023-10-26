@@ -1,7 +1,7 @@
 <footer id="site_footer">
         <!-- Top Part -->
         <section class="container d-flex">
-
+             
             <!-- 1 div -->
             <div
                 class="d-flex custom-width flex-column justify-content-start pt-4 align-items-start text-nowrap custom-margin">
@@ -49,13 +49,9 @@
 
             </div>
 
-            <div class="d-flex justify-content-end custom-width-logo-footer">
-                <img src="../assets/img/dc-logo-bg.png">
+            <div class="ml-auto">
+            <img class="position-absolute custom-width-logo-footer" src="{{Vite::asset('resources/images/dc-logo-bg.png')}}" alt="">
             </div>
-
-
-
-
 
 
 
@@ -77,11 +73,11 @@
                 <div class="col-6 d-flex justify-content-end">
 
                     <a href="#" class="px-3 text-decoration-none color-followme">FOLLOW US</a>
-                    <a href="#" class="px-2 social-color"><img src="../assets/img/footer-facebook.png"></a>
-                    <a href="#" class="px-2 social-color"><img src="../assets/img/footer-twitter.png"></a>
-                    <a href="#" class="px-2 social-color"><img src="../assets/img/footer-youtube.png"></a>
-                    <a href="#" class="px-2 social-color"><img src="../assets/img/footer-pinterest.png"></a>
-                    <a href="#" class="px-2 social-color"><img src="../assets/img/footer-periscope.png"></a>
+                    <a href="#" class="px-2 social-color"><img src="{{Vite::asset('resources/images/footer-facebook.png')}}"></a>
+                    <a href="#" class="px-2 social-color"><img src="{{Vite::asset('resources/images/footer-twitter.png')}}"></a>
+                    <a href="#" class="px-2 social-color"><img src="{{Vite::asset('resources/images/footer-youtube.png')}}"></a>
+                    <a href="#" class="px-2 social-color"><img src="{{Vite::asset('resources/images/footer-pinterest.png')}}"></a>
+                    <a href="#" class="px-2 social-color"><img src="{{Vite::asset('resources/images/footer-periscope.png')}}"></a>
 
                 </div>
 

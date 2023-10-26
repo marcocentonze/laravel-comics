@@ -12,6 +12,7 @@ $dc_bg_btn_footer:#303030;
 
 
 
+
     /* logo */
     img {
         width:75%;
@@ -75,6 +76,63 @@ $dc_bg_btn_footer:#303030;
       
       /* main */
    
+      .custom-btn {
+
+        margin-bottom: 3rem;
+        background: $dc_main_blue;
+        padding: 0.5rem 1rem;
+
+        h6 {
+            color: $dc_main_blue;
+            text-transform: uppercase;
+            margin: 0;
+            font-weight: 700;
+        }
+
+    }
+
+
+
+      
+.icons-dc {
+
+    background: $dc_main_blue;
+    position: relative;
+    z-index: 1;
+
+    .text-icons {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    .icon_text {
+
+        img {
+
+
+            max-width: 3rem;
+            max-height: 3rem;
+            margin-right: 0.3rem;
+        }
+
+        p {
+            color: $dc_white;
+            font-size: 0.8rem;
+            margin: 0;
+        }
+    }
+
+}
+
+.fixed-height {
+    height: 200px; 
+  }
+  
+  .comic-title {
+    text-align: center; 
+  }
    
     
       /* fine main */
@@ -100,7 +158,7 @@ $dc_bg_btn_footer:#303030;
       }
       
       .custom-width-logo-footer {
-          width: 52%;
+          width: 20%;
           margin: -50px 0;
           margin-left: 160px;
       }

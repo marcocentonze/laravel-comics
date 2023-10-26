@@ -13,6 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('home');
+    $menu_links= [
+        'CHARACTERS',
+        'COMICS',
+        'MOVIES',
+        'TV',
+        'GAMES',
+        'COLLECTIBILES',
+        'VIDEOS',
+        'FANS',
+        'NEWS',
+        'SHOP'
+    ];
+    $comics = config('comics');
+    return view('home', compact('comics'), compact('menu_links'));
 })->name('home');
