@@ -1,1 +1,135 @@
 @import '~bootstrap/scss/bootstrap';
+
+// Colours
+
+$dc_white :#FFFFFF;
+$dc_dark: #1C1C1C;
+$dc_dark_light:#464646;
+$dc_main_blue:#0282F9;
+$dc_footer_blue:#116BD0;
+$dc_footer_text: #7A7A7A;
+$dc_bg_btn_footer:#303030;
+
+
+
+    /* logo */
+    img {
+        width:75%;
+      }
+      .custom-margin {
+          margin-right: 400px;
+        }
+      
+        /* fine logo */
+      
+        /* header */
+
+        .little-top-header{
+            background-color: $dc_main_blue;
+            height:30px;
+        }
+
+        .wrapper{
+        width:100%;
+        height:100%;
+        
+      }
+      
+      #site_header {
+        background-color: $dc_white;
+        
+      
+        a.nav-item {
+          text-transform: uppercase;
+          font-size: 14px;
+          padding: 3rem .5rem;
+          color: $dc_dark_light;
+      
+          &.active {
+            color: $dc_main_blue;
+            border-bottom: 4px solid $dc_main_blue;
+          }
+        }
+        .searchbar {
+            input {
+                border: 0;
+                border-bottom: 2px solid $dc_main_blue;
+            }
+        
+            input::-webkit-input-placeholder {
+                text-align: end;
+                color: $dc_dark;
+            }
+        
+        }
+      
+      }
+      /* fine header */
+
+    //   jumbotron
+    .jumbo-img{
+        background-image: url('../../resources/images/jumbotron.jpg');
+        height: 500px;
+    }
+      
+      
+      /* main */
+   
+   
+    
+      /* fine main */
+      
+      /* footer */
+      
+      #site_footer {
+      
+      background-image: url('../../resources/images/footer-bg.jpg');
+      width: 100%;
+      overflow: hidden;
+      
+      .custom-width {
+          width: 10%;
+      }
+      
+      h5 {
+          color: white;
+      }
+      
+      a {
+          color: $dc_footer_text;
+      }
+      
+      .custom-width-logo-footer {
+          width: 52%;
+          margin: -50px 0;
+          margin-left: 160px;
+      }
+      
+      .custom-margin {
+          margin-right: 60px;
+      }
+      
+      .footer-bottom {
+          background-color: $dc_dark_light;
+      }
+      
+      .social-color {
+          color: $dc_dark_light;
+      }
+      
+      .btn-signup {
+          background-color: $dc_bg_btn_footer;
+          border: 2px solid $dc_footer_blue;
+          padding: 10px 20px;
+          margin-left: 25px;
+      }
+      
+      .color-followme {
+          color: #0382F3;
+          font-size: larger;
+      
+      }
+      
+      }
+      
+      /* fine footer */
